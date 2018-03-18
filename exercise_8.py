@@ -11,4 +11,4 @@ bag,hello,without,world
 '''
 
 def get_sorted_list(words):
-    pass
+    return sorted(words)
