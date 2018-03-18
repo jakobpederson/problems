@@ -7,4 +7,4 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 
 
 def get_numbers(start, end):
-    pass
+    return [x for x in range(start, end + 1) if x % 7 == 0 and x % 5 != 0]
