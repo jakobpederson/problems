@@ -12,4 +12,4 @@ Then, the output of the program should be:
 '''
 
 def get_2_dimensional_array(x, y):
-    pass
+    return [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
