@@ -11,4 +11,4 @@ bag,hello,without,world
 '''
 
 def get_sorted_list(words):
-    return sorted(words)
+    return sorted([word.lower() for word in words])
