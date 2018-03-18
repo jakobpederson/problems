@@ -12,4 +12,8 @@ Then, the output of the program should be:
 '''
 
 def get_2_dimensional_array(x, y):
-    return [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
+    result = []
+    for i in range(0, x):
+        print(i)
+        result.append([i * j for j in range(0, y)])
+    return result

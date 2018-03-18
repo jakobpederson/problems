@@ -11,3 +11,9 @@ class Exercise7Test(TestCase):
             [0, 2, 4, 6, 8]
         ]
         self.assertCountEqual(get_2_dimensional_array(3, 5), expected)
+
+    def test_y(self):
+        expected = [
+            [0, 0],
+        ]
+        self.assertCountEqual(get_2_dimensional_array(1, 2), expected)
